@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.Agents.AI.Workflows" Version="*-*" />
     <PackageReference Include="Microsoft.Agents.AI" Version="*-*" />
     <PackageReference Include="Microsoft.Agents.AI.Hosting" Version="*-*" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.5" />
   </ItemGroup>
 
   <ItemGroup>

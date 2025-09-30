@@ -55,6 +55,11 @@ if (app.Environment.IsDevelopment())
 
     // Enable static file serving from wwwroot
     app.UseStaticFiles();    
+
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/openapi/v1.json", "v1");
+    });
 }
 
 
