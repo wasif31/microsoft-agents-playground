@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dsis-101",
+    "name": "DSIS Surface Section",
+    "holeSize": { "value": 26.0, "unit": "in" },
+    "topMD": { "value": 90.0, "unit": "m" },
+    "bottomMD": { "value": 1100.0, "unit": "m" },
+    "topTvd": { "value": 90.0, "unit": "m" },
+    "bottomTvd": { "value": 1092.3, "unit": "m" },
+    "program": { "id": "dsis-prog-101" },
+    "wellbore": {
+      "id": "dsis-wb-101",
+      "name": "DSIS-Wellbore-A",
+      "dsis": {
+        "defSurveyHeaderId": "X2BDI",
+        "id": "qcQSY0uiQG",
+        "scenarioId": "lhm4V",
+        "wellId": "EkcQ0ZDKcr"
+      }
+    }
+  }
+]

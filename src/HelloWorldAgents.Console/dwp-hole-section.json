@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dwp-001",
+    "topMD": { "value": 0.0, "unit": "m" },
+    "bottomMD": { "value": 150.0, "unit": "m" },
+    "topTvd": { "value": 0.0, "unit": "m" },
+    "bottomTvd": { "value": 149.2, "unit": "m" },
+    "holeSize": { "value": 36.0, "unit": "in" },
+    "name": "30\" Conductor Casing",
+    "program": { "id": "dwp-prog-001" },
+    "wellbore": {
+      "id": "dwp-wb-001",
+      "name": "DWP-Example-1",
+      "dsis": {
+        "defSurveyHeaderId": "DWP01",
+        "id": "dwp-dsis-001",
+        "scenarioId": "dwp-scn-001",
+        "wellId": "dwp-well-001"
+      }
+    }
+  }
+]

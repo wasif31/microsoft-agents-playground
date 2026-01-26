@@ -69,16 +69,16 @@ app.MapGet("/agent/chat", async (
     Workflow workflow =
         AgentWorkflowBuilder
             .CreateGroupChatBuilderWith(agents =>
-                new AgentWorkflowBuilder.RoundRobinGroupChatManager(agents)
+                new RoundRobinGroupChatManager(agents)
                 {
                     MaximumIterationCount = 2
                 })
             .AddParticipants(writer, editor)
             .Build();
 
-    AIAgent workflowAgent = await workflow.AsAgentAsync();
+    AIAgent workflowAgent = workflow.AsAgent();
 
-    AgentRunResponse response = await workflowAgent.RunAsync(prompt);
+    var response = await workflowAgent.RunAsync(prompt);
     return Results.Ok(response);
 });
 

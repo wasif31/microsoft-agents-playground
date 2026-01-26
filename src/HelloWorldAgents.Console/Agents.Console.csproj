@@ -9,18 +9,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="Microsoft.Agents.AI.Workflows" Version="1.0.0-preview.251002.1" />
-	  <PackageReference Include="Microsoft.Extensions.AI" Version="9.10.0" />
-	  <PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.251002.1" />
+	  <PackageReference Include="Azure.Identity" Version="1.17.1" />
+	  <PackageReference Include="Microsoft.Agents.AI.Workflows" Version="1.0.0-preview.260121.1" />
+	  <PackageReference Include="Microsoft.Extensions.AI" Version="10.2.0" />
+	  <PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.260121.1" />
     <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.9.1-preview.1.25474.6" />
     <PackageReference Include="Azure.AI.OpenAI" Version="2.3.0-beta.2" />
-	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
-	  <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.0" />
-	  <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.12" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.12" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="hole-sections.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="dwp-hole-section.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="dsis-holesection.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

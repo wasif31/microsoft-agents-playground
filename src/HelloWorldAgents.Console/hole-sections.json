@@ -26,125 +26,15 @@
       "unit": "m"
     },
     "wellbore": {
-      "dsis": {
-        "defSurveyHeaderId": "X2BDI",
-        "id": "qcQSY0uiQG",
-        "scenarioId": "lhm4V",
-        "wellId": "EkcQ0ZDKcr"
-      },
-      "id": "34eddcd8-b261-4da3-a48d-e0a86d588dde",
-      "name": "630/11-V-2 H_Rev D0 [F2_G1_2 AVE Utsira - DG3]_cpf1"
+        "dsis": {
+            "defSurveyHeaderId": "X2BDI",
+            "id": "qcQSY0uiQG",
+            "scenarioId": "lhm4V",
+            "wellId": "EkcQ0ZDKcr"
+        },
+        "id": "34eddcd8-b261-4da3-a48d-e0a86d588dde",
+        "name": "630/11-V-2 H_Rev D0 [F2_G1_2 AVE Utsira - DG3]_cpf1"
     }
-  },
-  {
-    "id": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
-    "bottomMD": {
-      "value": 2450.5,
-      "unit": "m"
-    },
-    "bottomTvd": {
-      "value": 2380.75,
-      "unit": "m"
-    },
-    "holeSize": {
-      "value": 17.5,
-      "unit": "in"
-    },
-    "name": "13 3/8\" Intermediate Casing",
-    "program": {
-      "id": "b2c3d4e5-f6a7-48b9-c0d1-e2f3g4h5i6j7"
-    },
-    "topMD": {
-      "value": 1158.0,
-      "unit": "m"
-    },
-    "topTvd": {
-      "value": 1157.5,
-      "unit": "m"
-    },
-    "wellbore": {
-      "dsis": {
-        "defSurveyHeaderId": "X2BDI",
-        "id": "qcQSY0uiQG",
-        "scenarioId": "lhm4V",
-        "wellId": "EkcQ0ZDKcr"
-      },
-      "id": "34eddcd8-b261-4da3-a48d-e0a86d588dde",
-      "name": "630/11-V-2 H_Rev D0 [F2_G1_2 AVE Utsira - DG3]_cpf1"
-    }
-  },
-  {
-    "id": "f7g8h9i0-j1k2-49l3-m4n5-o6p7q8r9s0t1",
-    "bottomMD": {
-      "value": 4125.8,
-      "unit": "m"
-    },
-    "bottomTvd": {
-      "value": 3950.25,
-      "unit": "m"
-    },
-    "holeSize": {
-      "value": 12.25,
-      "unit": "in"
-    },
-    "name": "9 5/8\" Production Casing",
-    "program": {
-      "id": "c3d4e5f6-a7b8-49c0-d1e2-f3g4h5i6j7k8"
-    },
-    "topMD": {
-      "value": 2451.0,
-      "unit": "m"
-    },
-    "topTvd": {
-      "value": 2381.2,
-      "unit": "m"
-    },
-    "wellbore": {
-      "dsis": {
-        "defSurveyHeaderId": "X2BDI",
-        "id": "qcQSY0uiQG",
-        "scenarioId": "lhm4V",
-        "wellId": "EkcQ0ZDKcr"
-      },
-      "id": "34eddcd8-b261-4da3-a48d-e0a86d588dde",
-      "name": "630/11-V-2 H_Rev D0 [F2_G1_2 AVE Utsira - DG3]_cpf1"
-    }
-  },
-  {
-    "id": "d8e9f0a1-b2c3-40d4-e5f6-g7h8i9j0k1l2",
-    "bottomMD": {
-      "value": 5850.25,
-      "unit": "m"
-    },
-    "bottomTvd": {
-      "value": 5620.5,
-      "unit": "m"
-    },
-    "holeSize": {
-      "value": 8.5,
-      "unit": "in"
-    },
-    "name": "7\" Tieback Casing",
-    "program": {
-      "id": "d4e5f6a7-b8c9-40d1-e2f3-g4h5i6j7k8l9"
-    },
-    "topMD": {
-      "value": 4126.0,
-      "unit": "m"
-    },
-    "topTvd": {
-      "value": 3950.8,
-      "unit": "m"
-    },
-    "wellbore": {
-      "dsis": {
-        "defSurveyHeaderId": "X2BDI",
-        "id": "qcQSY0uiQG",
-        "scenarioId": "lhm4V",
-        "wellId": "EkcQ0ZDKcr"
-      },
-      "id": "34eddcd8-b261-4da3-a48d-e0a86d588dde",
-      "name": "630/11-V-2 H_Rev D0 [F2_G1_2 AVE Utsira - DG3]_cpf1"
-    }
+
   }
 ]
