@@ -1,0 +1,1797 @@
+[
+    {
+        "comment": "Performed repeat logging pass across reservoir from 4025 m to 3953 m. RIH to 4020 m.",
+        "depth": 4020.0002,
+        "docType": "ddr",
+        "docId": "c0a19e91-1db2-4346-ab6a-b8d24fdfd187",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "3JzhP"
+        },
+        "start": "2017-04-03T19:00:00Z",
+        "end": "2017-04-03T20:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Dropped 3\" hollow drift. Flow checked well - Well static.",
+        "depth": 3730,
+        "docType": "ddr",
+        "docId": "6510ad4d-643d-48ce-b600-1b1e9e7a2953",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "aiAd0"
+        },
+        "start": "2017-04-03T03:00:00Z",
+        "end": "2017-04-03T03:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH BHA from 375 m to 53 m racking back stand of 5 1/2\" HWDP, accelerator and jar stand and 5 stands 5 1/2\" HWDP.",
+        "depth": 52.999998999999995,
+        "docType": "ddr",
+        "docId": "da4b853a-ed7e-4a5e-b4e1-46aa4de0557f",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "agM31"
+        },
+        "start": "2017-04-03T07:30:00Z",
+        "end": "2017-04-03T08:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "No activities in Aux due to BHA handling.",
+        "docType": "ddr",
+        "docId": "114efc25-556a-4cf4-8ec6-51161d180692",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "bzW1u"
+        },
+        "start": "2017-04-03T07:00:00Z",
+        "end": "2017-04-03T16:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Flow checked well - Well loosing 0.16 m3/hrs static.",
+        "depth": 3970.0002,
+        "docType": "ddr",
+        "docId": "43465895-e836-41ed-b33b-d91644f6aca3",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "eblyc"
+        },
+        "start": "2017-04-03T01:30:00Z",
+        "end": "2017-04-03T02:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "lostcirculation"
+        ]
+    },
+    {
+        "comment": "Pumped slug. POOH 8 1/2\" drilling BHA from 3520 m to BHA at 375 m on 5 1/2\" DP.",
+        "depth": 375.00002,
+        "docType": "ddr",
+        "docId": "abb31373-e963-482b-b52e-280b5b7a7c5b",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "CPLJG"
+        },
+        "start": "2017-04-03T04:00:00Z",
+        "end": "2017-04-03T07:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Drilled 8 1/2\" hole from 4049 m to section TD at 4077 m. Parameters: 160 rpm / 40 - 43 Knm torque, 2200 lpm / 200 bar, WOB 0.5 - 9 MT, ROP 40 m/hrs, average ROP 30 m/hrs.\n- Recorded TD survey at 4056.50 m - 202,91 deg AZ - 12.82 deg incl.\n- At TD well positioned 15.3 m left of and 2 m above planned trajectory.",
+        "depth": 4077.0002,
+        "docType": "ddr",
+        "docId": "2731d8ae-22af-4586-b509-46f5787d8d1e",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "EGXLl"
+        },
+        "start": "2017-04-02T22:00:00Z",
+        "end": "2017-04-02T23:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Correlated depth.",
+        "depth": 4020.0002,
+        "docType": "ddr",
+        "docId": "512049e0-9e30-4d7a-b376-ee750c8dc86b",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "HQqEQ"
+        },
+        "start": "2017-04-03T20:00:00Z",
+        "end": "2017-04-03T20:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Logged up from TD at 4077 m to 3749 m, some 30 m inside 9 5/8\" casing shoe. RIH to 4025 m.",
+        "depth": 4025.0002,
+        "docType": "ddr",
+        "docId": "a73fc955-b94c-4355-b1b0-772822c85bc0",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "iLPlA"
+        },
+        "start": "2017-04-03T18:00:00Z",
+        "end": "2017-04-03T19:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Loaded RA sources into wireline TS.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "82b08d7d-cba5-4de7-ba25-051d248f01f1",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "Ji6m8"
+        },
+        "start": "2017-04-03T15:00:00Z",
+        "end": "2017-04-03T15:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Performed TBT for building 7\" GRE tubing in Aux simultaneous with running wireline. Performed TBT for loading RA sources. Meanwhile flow checked well - Well loosing 0.08 m3/hrs static.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "741c4efb-f2db-420f-8f55-a37df0969bbc",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "jpBlZ"
+        },
+        "start": "2017-04-03T13:00:00Z",
+        "end": "2017-04-03T15:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "lostcirculation"
+        ]
+    },
+    {
+        "comment": "Build 9 stands of 7\" GRE tubing - Total of 46 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "c0dc4d60-51d1-4a91-b7f4-aa2ecc150eac",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "m49Il"
+        },
+        "start": "2017-04-02T22:00:00Z",
+        "end": "2017-04-03T07:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Pumped OOH with 500 lpm from 3970 m to 3730 m +- one stand inside 9 5/8\" casing shoe. Recorded torque parameters in preparation for liner running: 5 rpm / 28 KNm, 10 rpm / 27 Knm, 15 rpm / 26 KNm.",
+        "depth": 3730,
+        "docType": "ddr",
+        "docId": "5e17721b-6707-4871-9534-a80c45ebb454",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "JW21T"
+        },
+        "start": "2017-04-03T02:00:00Z",
+        "end": "2017-04-03T03:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH BHA from 24 m to surface laying out TeleScope MWD with 8 3/8\" NM ILS and Ecoscope LWD with 8 3/8\" RXS stab and Powerdrive with bit. Bit grading: 1-0-CT-N-X-IN-BT-TD.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "549f9cb3-1e02-4afd-8cff-a2af8a4b667d",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "QAPiQ"
+        },
+        "start": "2017-04-03T09:30:00Z",
+        "end": "2017-04-03T10:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Recorded 7 pressure points: 7 good tests.",
+        "depth": 4000.0002,
+        "docType": "ddr",
+        "docId": "0ce04a45-4231-42b8-b5c3-862881fe7123",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "R1PsD"
+        },
+        "start": "2017-04-03T20:30:00Z",
+        "end": "2017-04-03T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Removed RA source.",
+        "depth": 23.999995999999996,
+        "docType": "ddr",
+        "docId": "3f6760d4-0b68-4bff-beac-7af7dab1de82",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "sMuUk"
+        },
+        "start": "2017-04-03T09:00:00Z",
+        "end": "2017-04-03T09:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH 8 1/2\" drilling BHA from 3696 m to 3520 m on 5 stands wet and verified correct pipe displacement.",
+        "depth": 3520.0002,
+        "docType": "ddr",
+        "docId": "acc388ba-ff2a-49fc-a878-d140e16ae3b1",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "TDX2W"
+        },
+        "start": "2017-04-03T03:30:00Z",
+        "end": "2017-04-03T04:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 9 stands of 7\" GRE tubing while running Wireline - Total of 55 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "09881f0b-7bcc-4075-acdd-464dbdaf65f4",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "Uo5YS"
+        },
+        "start": "2017-04-03T16:00:00Z",
+        "end": "2017-04-03T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH BHA from 53 m to 24 m laying out Well Commander and ATS sub, 6.75\" NM DC and SonicScope.",
+        "depth": 23.999995999999996,
+        "docType": "ddr",
+        "docId": "44ee093f-234a-4b6f-aba0-2489739f7112",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "V4PU7"
+        },
+        "start": "2017-04-03T08:30:00Z",
+        "end": "2017-04-03T09:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Cleared and cleaned rig floor. Performed TBT for wireline rig up.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "de701798-5e97-4fa7-9d95-150cf6e99fe8",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "ylsO2"
+        },
+        "start": "2017-04-03T10:00:00Z",
+        "end": "2017-04-03T10:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "RIH with Wireline TS#1A from surface to TD at 4077 m. Passed 9 5/8\" casing shoe at 3777 m in third attempt with increased running speed.",
+        "depth": 4077.0002,
+        "docType": "ddr",
+        "docId": "ccce4eb9-2aea-458c-b9ec-3d4cf0ff5f8b",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "vM3Kg"
+        },
+        "start": "2017-04-03T15:30:00Z",
+        "end": "2017-04-03T18:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "tighthole"
+        ]
+    },
+    {
+        "comment": "Made up wireline toolstring 1A (Pressure points): AIT - PEX - HNGS - XPT - GR. Rigged up remaining wireline equipment including sheaves. Feed wireline through sheave in V-door and TDS and connected to toolstring. Completed surface testing.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "452d75bc-9fc1-453c-a8ff-946cb76a1361",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "yZXLm"
+        },
+        "start": "2017-04-03T10:30:00Z",
+        "end": "2017-04-03T13:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Further investigated oil leak. Indications of hydraulic fluid leaking into transmission from motor. Decision taken to change out hydraulic motor and transmission. Commenced mobilization of spare parts.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "3a844386-cacd-498f-9f5a-f73b92ce9067",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "3C3RL"
+        },
+        "start": "2017-04-04T08:30:00Z",
+        "end": "2017-04-04T11:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "surfeqfailure"
+        ]
+    },
+    {
+        "comment": "Circulated 3 x bottoms up and well clean with 2400 lpm / 210 bar. Conditioned 1.18 sg mud for upcoming wireline operation. Rotated string with 130 rpm and reciprocated. Pulled back to 3970 m racking back one stand on each bottoms up. No significant losses.",
+        "depth": 3970.0002,
+        "docType": "ddr",
+        "docId": "fa740d58-86af-4174-8ccf-cc36aee6fea9",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "Z3ZyK"
+        },
+        "start": "2017-04-02T23:00:00Z",
+        "end": "2017-04-03T01:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "lostcirculation"
+        ]
+    },
+    {
+        "comment": "Flow checked well - Well static. Retrieved drift.",
+        "depth": 375.00002,
+        "docType": "ddr",
+        "docId": "4b5e4a38-1ba6-4f39-b825-363ea7c93166",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "zobVF"
+        },
+        "start": "2017-04-03T07:00:00Z",
+        "end": "2017-04-03T07:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Installed new transmission and hydraulic motor on wireline winch.\nNote: \n10:30 - 24:00 hrs: Flow checked well - Well loosing 0.03 m3/hrs static.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "d3a2dff1-ba51-4430-afb2-c130001f7676",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "53HVR"
+        },
+        "start": "2017-04-04T20:30:00Z",
+        "end": "2017-04-04T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 3 stands of 7\" GRE tubing while running Wireline - Total of 58 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "3443725f-907a-4c69-898c-83be29f3e230",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "8OrTa"
+        },
+        "start": "2017-04-03T22:00:00Z",
+        "end": "2017-04-04T01:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "No activities in Aux due to PGM electrical cable failure.",
+        "docType": "ddr",
+        "docId": "a2d0e59d-0998-4624-9ade-852bf8716756",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "63X4t"
+        },
+        "start": "2017-04-04T10:30:00Z",
+        "end": "2017-04-04T15:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "surfeqfailure"
+        ]
+    },
+    {
+        "comment": "Made up wireline toolstring #1B (Sidewall cores): MSCT - GR - LEHQT. Connected wireline to toolstring. Completed surface testing.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "0b04a2ef-494c-4e07-9679-897ec19269e5",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "d8gIX"
+        },
+        "start": "2017-04-04T04:30:00Z",
+        "end": "2017-04-04T06:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH wireline toolstring #1B from 300 m to surface. Secured toolstring.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "1deb3fe6-79e8-43af-b8c5-f87161c1a2b1",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "IUbxH"
+        },
+        "start": "2017-04-04T08:00:00Z",
+        "end": "2017-04-04T08:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Investigated oil leak. Verified leak coming from winch motor and / or transmission. Decision taken to POOH.",
+        "depth": 300.00002,
+        "docType": "ddr",
+        "docId": "a2efd56e-51da-493b-b883-7a2622cc1b44",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "gsv5P"
+        },
+        "start": "2017-04-04T07:30:00Z",
+        "end": "2017-04-04T08:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 2 stands of 7\" GRE tubing while running Wireline - Total of 60 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "5a2424ba-7efd-4d02-86a8-1e90bb4ebb95",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "msBoF"
+        },
+        "start": "2017-04-04T07:00:00Z",
+        "end": "2017-04-04T10:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Recorded 14 pressure points: 3 good tests, 10 tight test, 1 supercharged test. Total recorded numbers of pressure point: 21, hereof 10 good tests and 10 tight tests, 1 supercharged test.",
+        "depth": 4031.0002,
+        "docType": "ddr",
+        "docId": "bdec7d4e-93d2-4a15-b87c-6133e2ffbcdf",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "MHxT1"
+        },
+        "start": "2017-04-03T22:00:00Z",
+        "end": "2017-04-04T01:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Awaited new spare parts from town. New hydraulic motor and transmission arrived on rig at 22:15 hrs. Meanwhile prepared worksite for installation of new components.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "98a9e319-3885-46ba-89a9-ff667d76fa3c",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "kpOKE"
+        },
+        "start": "2017-04-04T17:00:00Z",
+        "end": "2017-04-04T20:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "wait"
+        ]
+    },
+    {
+        "comment": "RIH with Wireline toolstring#1B from surface to 300 m - Observed oil leak from winch transmission.",
+        "depth": 300.00002,
+        "docType": "ddr",
+        "docId": "b57c7b09-b74e-48ee-be42-34c1597c67bb",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "MyWJu"
+        },
+        "start": "2017-04-04T06:30:00Z",
+        "end": "2017-04-04T07:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "POOH wireline TS #1A from 4031 m to surface.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "00fa43e5-49a6-4a4d-8dd3-ecb98df94f6f",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "qIDxZ"
+        },
+        "start": "2017-04-04T01:30:00Z",
+        "end": "2017-04-04T03:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Disconnected and removed old hydraulic motor and transmission from wireline winch.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "73a6cf6e-0bf5-4d75-810f-7b5ecfadd745",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "QYya5"
+        },
+        "start": "2017-04-04T11:00:00Z",
+        "end": "2017-04-04T17:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Removed RA sources. Broke out and laid out wireline TS #1A to deck.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "4e19a779-fb09-4787-a825-77f169acc9b3",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "T7Z1F"
+        },
+        "start": "2017-04-04T03:00:00Z",
+        "end": "2017-04-04T04:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "No activities in Aux due to POOH with wireline TS and handling wireline BHA.",
+        "docType": "ddr",
+        "docId": "9cc7200e-ed7c-43d0-9780-c54867ab364c",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "qyF10"
+        },
+        "start": "2017-04-04T01:30:00Z",
+        "end": "2017-04-04T07:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 8 stands of 7\" GRE tubing while running Wireline - Total of 68 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "3b64ff2e-2870-43dc-bc23-c577eb6a0f71",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "yG1Uu"
+        },
+        "start": "2017-04-04T15:00:00Z",
+        "end": "2017-04-04T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "RIH with Wireline toolstring #1B from surface to 4040 m. Passed 9 5/8\" casing shoe at 3777 m with no restrictions.",
+        "depth": 4040,
+        "docType": "ddr",
+        "docId": "205e96cb-050c-41b2-9920-f60eb4d9b72d",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "2gGDv"
+        },
+        "start": "2017-04-05T00:00:00Z",
+        "end": "2017-04-05T01:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "B/O Wireline toolstring #1B and laid out same. Rigged down WL sheaves.\n- Core recovery: 1 full recovery and 21 with partial/ fragmented recovery.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "4e603400-aa72-4098-ad61-6318de9ddca3",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "B7iqv"
+        },
+        "start": "2017-04-05T10:00:00Z",
+        "end": "2017-04-05T11:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Cleaned and cleared drill floor.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "af8fca22-bb44-4a23-b1c1-a70b529e9d50",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "dAW3X"
+        },
+        "start": "2017-04-05T11:30:00Z",
+        "end": "2017-04-05T12:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Pulled out of hole with WL toolstring #1B from 3972 m to surface.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "8c52b650-8051-47d6-aa45-769de36eb622",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "liPBn"
+        },
+        "start": "2017-04-05T07:00:00Z",
+        "end": "2017-04-05T10:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Correlated depth. Pulled back to first core station at 3997 m.",
+        "depth": 3797,
+        "docType": "ddr",
+        "docId": "6238d824-01ea-486c-95ee-5f5b1c0d7eeb",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "M8h2X"
+        },
+        "start": "2017-04-05T01:30:00Z",
+        "end": "2017-04-05T02:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Continued installation of new transmission and hydraulic motor on wireline winch. Tested winch.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "692d5adc-99dd-4e23-a056-124899d5c29e",
+        "operation": {
+            "code": "N"
+        },
+        "npt": {},
+        "operationCode": "N",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "vbgvN"
+        },
+        "start": "2017-04-04T22:00:00Z",
+        "end": "2017-04-05T00:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Cut 30 cores in interval from 3999 m to 3972 m.",
+        "depth": 3972.0002,
+        "docType": "ddr",
+        "docId": "68f44297-dd10-4e0a-8501-b0461905f7ae",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "VFu3O"
+        },
+        "start": "2017-04-05T02:00:00Z",
+        "end": "2017-04-05T07:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 13 stands of 7\" GRE tubing while running Wireline - Total of 81 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "c26e21ea-584e-4b5c-92fc-541c200cf8eb",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "Y0E6M"
+        },
+        "start": "2017-04-04T22:00:00Z",
+        "end": "2017-04-05T07:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 13 stands of 7\" GRE tubing - Total of 38 stands of 7\" GRE tubing racked back.",
+        "docType": "ddr",
+        "docId": "95b576f9-5039-4fe2-a6b1-268ade4d0c4b",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "1qJIc"
+        },
+        "start": "2017-04-02T16:00:00Z",
+        "end": "2017-04-02T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Drilled 8 1/2\" hole from 3788 m to 3808 m - Experienced erratic torque and pack-off tendencies throughout entire interval. Recorded dynamic FIT to 1.38 sg EMW. Parameters: 100 rpm / 40 - 45 KNm torque, 2000 - 2400 lpm / 175 - 225 bar, WOB 5 - 14 MT, ROP 15 - 40 m/hrs, average ROP 20 m/hrs.",
+        "depth": 3808.0002,
+        "docType": "ddr",
+        "docId": "29c1db0b-10a2-4e74-a3e5-afaaaf75c4a4",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "9QmHt"
+        },
+        "start": "2017-04-02T14:00:00Z",
+        "end": "2017-04-02T15:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "harddrilling",
+            "packoff"
+        ]
+    },
+    {
+        "comment": "Picked up stand of 3 x 5 1/2\" HWDP + 1 x 8\" DC from setback. Broke out 8\" DC  and changed out with 5 1/2 HWDP single from deck. Racked back HWDP stand.",
+        "depth": 0,
+        "docType": "ddr",
+        "docId": "55ae47c4-c1ed-4d83-9923-1241990cf068",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "9UJKq"
+        },
+        "start": "2017-04-02T03:00:00Z",
+        "end": "2017-04-02T03:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Cleaned out rathole from 3777 m to TD at 3788 m in 3 m stages - Observed clear indications of unconsolidated cement in rathole with pack-off tendencies and erratic torque. Parameters: 70 rpm / 30 - 42 Knm torque, 1300 - 2000 lpm / 98 - 193 bar.",
+        "depth": 3788.0002,
+        "docType": "ddr",
+        "docId": "a5e4af1a-9dc3-4e9c-b388-33eb60cf14cb",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "BKgqd"
+        },
+        "start": "2017-04-02T12:30:00Z",
+        "end": "2017-04-02T14:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "harddrilling",
+            "packoff"
+        ]
+    },
+    {
+        "comment": "Installed RA sources in LWD.",
+        "depth": 33.99999999999999,
+        "docType": "ddr",
+        "docId": "baf4cde9-d33a-4a00-ae25-1f265a9ae386",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "FVg7O"
+        },
+        "start": "2017-04-02T04:30:00Z",
+        "end": "2017-04-02T05:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Drilled 8 1/2\" hole from 3808 m to top reservoir at 3970 m. Parameters: 160 rpm / 38 - 42 KNm torque, 2000 - 2200 lpm / 168 - 200 bar, WOB 4 - 13 MT, ROP 40 - 80 m/hrs, average ROP 33 m/hrs - ROP limited by challenged directional control (Unable to drop inclination as per plan).",
+        "depth": 3970.0002,
+        "docType": "ddr",
+        "docId": "a835ce71-477d-4d85-b0e8-0b5b37b666ef",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "hBd0u"
+        },
+        "start": "2017-04-02T15:00:00Z",
+        "end": "2017-04-02T20:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "dircontrol",
+            "highrop"
+        ]
+    },
+    {
+        "comment": "Drilled 8 1/2\" hole from 3970 m to 4049 m. Parameters: 160 rpm / 40 - 43 Knm torque, 2200 lpm / 190 - 200 bar, WOB 0.5 - 9 MT, ROP 40 m/hrs, average ROP 35 m/hrs.",
+        "depth": 4049.0002,
+        "docType": "ddr",
+        "docId": "bf35ad3a-0070-4aa0-b5d6-4ef262dcaabb",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "HtZeU"
+        },
+        "start": "2017-04-02T20:00:00Z",
+        "end": "2017-04-02T21:59:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Build 3 stands of 7\" GRE tubing. Struggled to calibrate and align casing cassette tong. Changed inserts. Trouble shoot make / brake paddle.",
+        "docType": "ddr",
+        "docId": "7d2d4acd-0ad0-4d37-a80c-fd035d1e901e",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "Jpc81"
+        },
+        "start": "2017-04-02T12:00:00Z",
+        "end": "2017-04-02T16:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "surfeqfailure"
+        ]
+    },
+    {
+        "comment": "Changed PUE and adjusted fingerboard for 7\" tubing.",
+        "docType": "ddr",
+        "docId": "b64dba6f-eafb-469d-96eb-b20335ae90a5",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "source": {
+            "name": "dsis",
+            "id": "jQ84Q"
+        },
+        "start": "2017-04-02T06:00:00Z",
+        "end": "2017-04-02T12:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "RIH BHA from 34 m to 53 m on 6.75\" NM DC, AST sub and WellCommander assembly with float.",
+        "depth": 52.999998999999995,
+        "docType": "ddr",
+        "docId": "2adb764f-99c2-4600-92fa-fdded143eb49",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "Py4ek"
+        },
+        "start": "2017-04-02T05:00:00Z",
+        "end": "2017-04-02T05:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Made up 8 1/2\" PowerDrive drilling BHA: Picked up PD assembly with 8 1/2\" PDC bit, 8 3/8\" RSX Stab and Ecoscope LWD. RIH PD assembly on 8 3/8\" NM ILS + Telescope LWD assembly and SonicScope collar to 34 m.",
+        "depth": 33.99999999999999,
+        "docType": "ddr",
+        "docId": "f9f911b5-c1fd-4d25-a612-e8cc683fa283",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "lHML8"
+        },
+        "start": "2017-04-02T03:30:00Z",
+        "end": "2017-04-02T04:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "RIH BHA from 364 m to 3686 m on 5 1/2\" DP. Filled pipe.",
+        "depth": 3686.0002,
+        "docType": "ddr",
+        "docId": "5bc4487a-b3e2-4284-83a7-a6266ecfbd93",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "UxfPF"
+        },
+        "start": "2017-04-02T06:30:00Z",
+        "end": "2017-04-02T09:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Washed down BHA from 3686 m and tagged cement plugs / FC at expected depth at 3730 m.",
+        "depth": 3730,
+        "docType": "ddr",
+        "docId": "b39e79ec-d926-4315-a202-22d2f67e4258",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "z2gdg"
+        },
+        "start": "2017-04-02T10:00:00Z",
+        "end": "2017-04-02T10:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "RIH 8 1/2\" drilling BHA form 53 m to 364 m on 5 stands 5 1/2\" HWDP, jar stand, accelerator stand and stand of 5 1/2\" HWDP.",
+        "depth": 364.00002,
+        "docType": "ddr",
+        "docId": "6c8157e9-db31-458c-80d7-e2489f88358a",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "xJ2Wk"
+        },
+        "start": "2017-04-02T05:30:00Z",
+        "end": "2017-04-02T06:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    },
+    {
+        "comment": "Drilled out cement plugs and FC from 3730 m to 3732 m. Drilled hard cement from 3732 m to FS at 3776 m. Drilled through FS from 3776 m to 3777 m. Meanwhile reduced MW from 1.45 sg to 1.18 sg. Parameters: 40 - 80 rpm / 30 - 36 KNm torque, 1200 - 1600 lpm / 100 - 163 bar.",
+        "depth": 3777.0002,
+        "docType": "ddr",
+        "docId": "829758fc-0c81-4f64-a51d-11911dd7cf0b",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "vrgnU"
+        },
+        "start": "2017-04-02T10:30:00Z",
+        "end": "2017-04-02T12:30:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": [
+            "harddrilling"
+        ]
+    },
+    {
+        "comment": "Performed choke drill.",
+        "depth": 3686.0002,
+        "docType": "ddr",
+        "docId": "b7212e28-b96c-4804-88ac-cf425fb57705",
+        "operation": {
+            "code": "P"
+        },
+        "npt": {},
+        "operationCode": "P",
+        "operationSubCode": null,
+        "nptCode": null,
+        "nptLevel": null,
+        "phase": "RES1",
+        "source": {
+            "name": "dsis",
+            "id": "ZTBzE"
+        },
+        "start": "2017-04-02T09:30:00Z",
+        "end": "2017-04-02T10:00:00Z",
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "wellbore"
+        },
+        "tags": []
+    }
+]

@@ -1,0 +1,768 @@
+[
+    {
+        "docId": "7475cbc5-ba4f-4441-b74f-4ad2bc147d25",
+        "type": "lessons learned",
+        "title": "SIMOPS in aux while running WL",
+        "description": "Good experience on building 7\" tubing in aux while running wireline.\n\nTwo learning points noted down after first WL runs:\n1. \nLower sheave tie down point: As of now, the only certified point to anchor the lower sheave is the padeye on the deck at the V door. There are 3 problems using this padeye. One, we need the 15T tugger to support the weight of the sheave wheel. Since the sheave is so far outside of the derrick, the tugger tries to pull the sheave wheel into the floor. We managed this well. Secondly, the position of the padeye can cause the shackles to interfere with the handrail at the V door. We found a position to minimize contact, but ideally if we continue to use that padeye, a small section of the lower rail can be removed. Thirdly, history shows us that the most likely place for a wireline cable to break is at the top sheave. When this happens, all of the cable between the top and bottom sheave will fall to the floor. By having the lower sheave wheel so far away from the top, it increases the exposure area should something happen. This is the exact area where the SIMOPS are taking place. The ideal place to install the lower sheave is closer to the well. The samson post outside of the driller’s cabin would be ideal, but as of now it’s not certified.\n\n2.\nMisconception between «POOH» and «Logging» - In the risk assessment performed, it was decided that SIMOPS should not continue during overpulls or while POOH, and only while RIH and logging. The misconception is that logging is usually performed while POOH, albeit at a slower speed. When we POOH with MSCT sidewall cores, we POOH at a slow speed, similar to and sometimes slower than logging speed. During the operation, SIMOPS were stopped for 2 hours while POOH with sidewall cores because we used the term POOH. The limitation for SIMOPS should be cable speed and not whether or not it’s called POOH. I suggest a speed limit of 8000 ft/hr as a safe cable speed for SIMOPS to proceed.",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-04T02:00:00+00:00",
+        "endDate": "2017-04-04T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8397"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    },
+    {
+        "docId": "a2659ede-3d1e-440e-9b33-6ad9dbd0fc34",
+        "type": "lessons learned",
+        "title": "Complicated pumping schedule for 7\" liner job",
+        "description": "Pumped 5 different fluids in conjunction with 7\" cementing job: \n- 1.18 sg OBM \n- Base oil\n- Spacer\n- 1.06 sg filtered brine\n- 1.18 sg viscosified brine\n\nObserved 3 different fluids in bottom of liner when performing USIT/CBL. \nIntervals: \n1: TOL - 3804 m \n2: 3804 m - 3845 m \n3: 3845 m - 4054 m",
+        "cause": "Possible to simplify pumping schedule??",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.1739339264219972,
+                58.90012640021119
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-06T02:00:00+00:00",
+        "endDate": "2017-04-06T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8405"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other",
+        "mdFrom": 4074,
+        "mdTo": 4070
+    },
+    {
+        "docId": "f5cb9a66-d79c-4a91-b199-edc2941ece7b",
+        "type": "lessons learned",
+        "title": "Make up speed of VAM21 CWD",
+        "description": "Make up speed (rpm) when making up 9 5/8\" VAM21CWD ",
+        "cause": "VAM21CWD threads to be made up with high rpm (25rpm)",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.1890345409130045,
+                58.91446205972795
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-02T02:00:00+00:00",
+        "endDate": "2017-04-02T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8371"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other",
+        "mdFrom": 1770,
+        "mdTo": 3800
+    },
+    {
+        "docId": "8cf8283d-20c9-4bc1-99bd-2be7f9cb7372",
+        "type": "lessons learned",
+        "title": "1.18 sg OBM",
+        "description": "Very good experience using 1.18 sg OBM in 8 1/2\" reservoir section:\n- No cavings observed\n- No issues when running 7\" liner after 2 WL runs (hole left open for 75 hrs from starting POOH w/BHA until 7\" entering open hole.\n- Perfect 7\" liner cement job, no losses and good bonding. TOC logged until just below liner hanger.\n",
+        "cause": "Pump OOH with 800lpm ",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.1749068680521773,
+                58.900984655024395
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-03T02:00:00+00:00",
+        "endDate": "2017-04-03T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8420"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other",
+        "mdFrom": 3777,
+        "mdTo": 4077
+    },
+    {
+        "docId": "16a2f924-fec8-4285-8553-3510027e4281",
+        "type": "lessons learned",
+        "title": "Racking 7\" VM25S 80",
+        "description": "Racked 7\" VM25S 80 stands in derrick.\n\nNo visual damage observed when running stands. \n\nGood experience, although some concern from VAM wrt. super chrome tubing coming in contact with steel (this initiates corrosion process).",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-04T02:00:00+00:00",
+        "endDate": "2017-04-04T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8415"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    },
+    {
+        "docId": "bca74071-57b7-4a9f-97aa-f489b499a340",
+        "type": "lessons learned",
+        "title": "Casing tong slipping on 7\" GRE tubing",
+        "description": "Casing tong slipping on 7\" GRE tubing. Black coating coming off easily when tong grippers are slipping on pipe. Gripping pressure and dies OK\nMU have to be performed over again.\nRusty pipe under black coating/painting. Suspect rust to be reason for issue.",
+        "cause": "Possible to get tubing without rust issue?? Jetting gripping area for casing tong onshore",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-05T02:00:00+00:00",
+        "endDate": "2017-04-05T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8393"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    },
+    {
+        "docId": "df123c1e-cd67-4291-b3fd-2bbf69b0060e",
+        "type": "lessons learned",
+        "title": "7 Swellpacker OD measurement",
+        "description": "RAP states that AD must check swellpacker OD upfront of operation. The swellpacker is wrapped with plastic for fluid protection. If this is removed, the element may be exposed to water and swelling process could initate at surface.",
+        "cause": "Change future RAPs accordingly.",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-05T02:00:00+00:00",
+        "endDate": "2017-04-05T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8391"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    },
+    {
+        "docId": "b206ab78-49e5-4815-9449-1beca5b0343d",
+        "type": "lessons learned",
+        "title": "Old batch of TKII rings sent to rig",
+        "description": "Received an old batch of TKII rings at rig. These are more fragile than the new ones.",
+        "cause": "Ensure new rings to be sent out next time...",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-05T02:00:00+00:00",
+        "endDate": "2017-04-05T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8407"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    },
+    {
+        "docId": "68371e19-73e6-49d7-bfd8-4db2e02e6732",
+        "type": "lessons learned",
+        "title": "Plenty of circulation upfront of liner cementing",
+        "description": "Spent ~1 hr establishing rate and circulating  after reaching TD.\n\nSpent ~1 hr circulating when dropping ball for setting hanger.\n\nSpent ~1 hr establishing rate and circulating prior to pumping base oil/spacer.\n",
+        "cause": "Evaluate to merge some of these circulation steps.",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.1739339264219972,
+                58.90012640021119
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-06T02:00:00+00:00",
+        "endDate": "2017-04-06T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8404"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other",
+        "mdFrom": 4074,
+        "mdTo": 4074
+    },
+    {
+        "docId": "154ec2f2-34fb-4929-ba2d-a21ab7b0c56c",
+        "type": "lessons learned",
+        "title": "Cement line volume",
+        "description": "All RAPs related to cementing states that displacement of surface lines from cement unit to rig floor is 300 l. ",
+        "cause": "Ensure cement hoses are flushed after disconnected from well prior to cement setting up inside.\n\n",
+        "scope": "Subsurface",
+        "position": {
+            "type": "Point",
+            "coordinates": [
+                2.196399551708466,
+                58.9216935459923
+            ]
+        },
+        "docType": "risk",
+        "startDate": "2017-04-05T02:00:00+00:00",
+        "endDate": "2017-04-05T02:00:00+00:00",
+        "source": {
+            "name": "iQx",
+            "id": "8392"
+        },
+        "tags": [],
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        },
+        "extendedCategory": "other"
+    }
+]

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Agents.Console;
 
-internal static class AzureOpenAIChatClientFactory
+internal static class AzureOpenAiChatClientFactory
 {
     public static IChatClient Create(IConfiguration configuration)
     {

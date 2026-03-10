@@ -1,0 +1,772 @@
+[
+
+    {
+        "cause": "Poor connection in collector had to trouble shoot",
+        "causeCode": "SFAL",
+        "company": "SCHLUMBERGER WIRELINE",
+        "description": "IDS/WellView NPT: SFS\n Poor connection in collector had to trouble shoot.\nChanged collector.",
+        "docType": "npt-report",
+        "docId": "2f87d230-66a5-4755-8b38-da6f555ce8cf",
+        "netTime": 1.5,
+        "source": {
+            "name": "dsis",
+            "id": "Z8aOv",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 3282.0002,
+        "description": "IDS/WellView NPT: LC\n Picked off bottom and reduced flow rate from 3350 lpm, 236 bar to 2000 lpm, 102 bar - Observed stable loss rate of 20 m3/hr. Reduced flow rate to 1000 lpm, 33 bar - Observed initial flow back in active system before stabilizing at 7 m3/hr loss rate. Reciprocated string from 3286 m to 3282 m.\n\n",
+        "docType": "npt-report",
+        "docId": "f1e63dc2-8ce5-4a6e-a78f-d8f841a6f0d5",
+        "netTime": 3,
+        "source": {
+            "name": "dsis",
+            "id": "UoE7X",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Stopped drilling due to issues with cutting blow",
+        "causeCode": "SFAL",
+        "company": "MAERSK DRILLING",
+        "depth": 2052,
+        "description": "IDS/WellView NPT: SFD\n Stopped drilling due to issues with cutting blow #2. Troubleshoot blower. Observed build up of rubber parts from floats in shaker header box.",
+        "docType": "npt-report",
+        "docId": "ccef15bf-8cbd-4c31-a03e-92bca214c744",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "2G8B4",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 3264.0002,
+        "description": "IDS/WellView NPT: LC\n At 3265 m, experienced sudden loss. Picked 1 m off bottom and reduced flow rate from 3350 lpm, 236 bar in increments until stable conditions achieved at 2000 lpm, 104 bar while rotating string at 25 rpm. Re-established drilling flow rate at 3350 lpm by increasing flow rate in 500 lpm increments.",
+        "docType": "npt-report",
+        "docId": "76f127cd-f6a9-4e8b-939c-6c981c31ac61",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "rXQbh",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Stuck valve",
+        "causeCode": "SFAL",
+        "company": "AKERBP",
+        "depth": 0,
+        "description": "Trouble shoot swab\n- Could not operate swab at the 145 bar WHP. Even using extension arm.\n- Could operate swab up to approximate 20 bar, but above that extensive force had to be used. That occur in all positions (closed, mid pos, open). \n- Consulted FMC duty. Consulted AkerBP mechanic onboard.\n- Displaced riser to N2 as an preparation for introduce diesel in XT cross for cleaning. Found that after valve was flushed with the N2, it was easier to operate.\n- Filled riser with fluid again to 145 bar (looped from well). The swab valve was now operational at normal force.",
+        "docType": "npt-report",
+        "docId": "68865d31-6e17-464a-88c2-d7fec949a901",
+        "netTime": 2.75,
+        "responsible": "NPT Due to Operator Problems",
+        "source": {
+            "name": "dsis",
+            "id": "rjrbX",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Applied sideways movement to string - Observed no",
+        "causeCode": "SFAL",
+        "company": "AKER BP ASA",
+        "depth": 0,
+        "description": "IDS/WellView NPT: WHS\n Applied sideways movement to string - Observed no downwards movement. POOH with packoff running tool and packoff assembly. Inspected packoff assembly - Observed lower out seal left in hole.",
+        "docType": "npt-report",
+        "docId": "af84efb7-cbb6-4006-b7c6-a9cfa767ad00",
+        "netTime": 16,
+        "source": {
+            "name": "dsis",
+            "id": "VO1gF",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "packoff",
+            "surfeqfailure",
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 2711,
+        "description": "IDS/WellView NPT: LC\n At 2716 m experienced sudden loss of returns - Recorded dynamic loss rate of 70 m3/hr. Reduced flow rate from 3500 lpm to 2000 lpm, 100 bar and pulled off bottom and spaced out at 2711 m. Observed dynamic loss trend with 2000 lpm decreased and obtained full returns. Increased flow rate gradually to 3500 lpm – Observed stable conditions. \n- Recorded vol lost: 12 m3.\n",
+        "docType": "npt-report",
+        "docId": "06e9d6ca-191f-4881-bbc4-57ad5c6e7e5e",
+        "netTime": 1.5,
+        "source": {
+            "name": "dsis",
+            "id": "y97yX",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Attempted to pressure test EV0-eRED plug from abo",
+        "causeCode": "DFAL",
+        "company": "HALLIBURTON",
+        "depth": 3686.0002,
+        "description": "IDS/WellView NPT: DSO\n Attempted to pressure test EV0-eRED plug from above to 345 bar – While pressuring up to 345 bar exceeded expected test volume ie plug not closed. Bleed down pressure to 0 bar.",
+        "docType": "npt-report",
+        "docId": "794aca76-ac35-4a7d-880c-f39fd2e4a11d",
+        "netTime": 2,
+        "source": {
+            "name": "dsis",
+            "id": "IAqQn",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "MISC",
+        "company": "AKER BP ASA",
+        "depth": 2035,
+        "description": "IDS/WellView NPT: OPS\n Observed shakers blower #2 tripped due to plugging up. Cuttings conveyor plugged and tripped. Line plugged between ISO tanks and R-valve. Stopped drilling. Rectified blower/ auger issues while reciprocating drill string in interval 2031-2005 m and circulating with 1000 lpm, 28 bar, 40 rpm, 15-20 kNm.",
+        "docType": "npt-report",
+        "docId": "81ffd765-15f6-4249-bd37-cdde39202eb5",
+        "netTime": 3.5,
+        "source": {
+            "name": "dsis",
+            "id": "tl49G",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 3260.0002,
+        "description": "IDS/WellView NPT: LC\n Prior to making connection at 3260 m experienced sudden loss of returns. Reduced flow rate from 4050 to 3500 lpm, 251 bar, 162 rpm, 21-30 kNm - recorded dynamic loss rate of 55 m3/hr. Picked off bottom and flow checked well on trip tank. Recorded initial static loss rate of 3.1 m3/hr with a decreasing trend flowed with well ballooning back with 3.5 m3/hr with a decreasing trend. \n- Recorded vol lost = 11 m3.  \n- Recorded flow back vol = 2.6 m3.\n",
+        "docType": "npt-report",
+        "docId": "bc0e7e5c-a598-43da-a6be-230e8005c2cd",
+        "netTime": 2.5,
+        "source": {
+            "name": "dsis",
+            "id": "7BAa5",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation",
+            "wellborebreathing"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Flow line spool did not fit between XT and flow l",
+        "causeCode": "SFAL",
+        "company": "AIBEL",
+        "description": "IDS/WellView NPT: SFS\n Flow line spool did not fit between XT and flow line.\nAdjusted cellar deck Claxton centraliser on conductor and took a new measurement on flow line spool.\nDisconnected and remove flow line spool.\n\n",
+        "docType": "npt-report",
+        "docId": "dbe63950-6d54-41d7-8f1d-c3d5baa63a3a",
+        "netTime": 3,
+        "source": {
+            "name": "dsis",
+            "id": "svQhT",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "SFAL",
+        "company": "SCHLUMBERGER",
+        "depth": 0,
+        "description": "Could not RIH due to high WHP and cable friction.\nClosed swab and bled down. Moved and greased the cable in the eziload.",
+        "docType": "npt-report",
+        "docId": "c176a461-72f5-4f5e-97a8-d1b7cc91e9e5",
+        "netTime": 0.5,
+        "responsible": "NPT Due to Service Company",
+        "source": {
+            "name": "dsis",
+            "id": "0g2gs",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Picked off bottom due to severe shocks and vibrat",
+        "causeCode": "DFAL",
+        "company": "SCHLUMBERGER",
+        "depth": 1535,
+        "description": "IDS/WellView NPT: BIT\n Picked off bottom due to severe shocks and vibrations on ARC and PowerDrive. Made several attempts to restart drilling with various drilling parameters, flow 3000-4700 lpm, 120-160 rpm - still severe shocks and vibrations. Succeeded establishing drilling parameters to reduce shocks and vibrations. \n\n",
+        "docType": "npt-report",
+        "docId": "94b0cb6d-be1f-4fbc-ba5d-6d9870c5877a",
+        "netTime": 23,
+        "source": {
+            "name": "dsis",
+            "id": "8I79s",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 2598.0002,
+        "description": "IDS/WellView NPT: LC\n Made up top drive and washed down with 1000 lpm, 37 bar from 2572 m to 2598 m – stable hole conditions. Staged up flow rate to 3500 lpm in 500 ltr increments and rotation with 20-140 rpm, verified stable returns on each stage. At stabilized drilling parameters observed initial losses of 14 m3/hr decreasing to 2 m3/hr over 15 mins. 1.479 sg ECD with 1.43 sg MW. \n- Bled in LCM bridging material\n- Total losses since start staging up flow: 13 m3\n",
+        "docType": "npt-report",
+        "docId": "7e9c35c3-fe28-488e-98b2-d1d39b3898df",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "Clmhp",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Picked up tubing hanger. Attempting to make up co",
+        "causeCode": "SFAL",
+        "company": "FRANK'S INTERNATIONAL LTD",
+        "depth": 3672.0002,
+        "description": "IDS/WellView NPT: SFS\n Picked up tubing hanger. Attempting to make up connection. - no success. Troubleshooted WIFI issues with casing tong. Rectified fault and made up connection. Recorded up weight at 173 ton.",
+        "docType": "npt-report",
+        "docId": "f10f54ff-d7d5-4fe1-a6d4-5d2da2f50adf",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "2jSoG",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Pulled up 30 m above HUD.\nTrouble shoot tool ADRM",
+        "causeCode": "DFAL",
+        "company": "SCHLUMBERGER WIRELINE",
+        "description": "IDS/WellView NPT: DHT\n Pulled up 30 m above HUD.\nTrouble shoot tool ADRM tool.",
+        "docType": "npt-report",
+        "docId": "ce2630f1-bdfd-4a07-baab-101fd2eb683c",
+        "netTime": 5.5,
+        "source": {
+            "name": "dsis",
+            "id": "vVJ4C",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Observed shakers blower #1 screw valve tripped cl",
+        "causeCode": "SFAL",
+        "company": "AKER BP ASA",
+        "depth": 608.0000500000001,
+        "description": "IDS/WellView NPT: SFD\n Observed shakers blower #1 screw valve tripped closed causing blower screw #2 to plug up. Stopped drilling and rectified blower issues while reciprocating drill string in interval 608 - 597 m with 570 lpm, 10 bar, 10 rpm, 1 kNm.",
+        "docType": "npt-report",
+        "docId": "04c1fff0-fbdf-44c0-a702-0ac57463de30",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "AW1qM",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 2523,
+        "description": "IDS/WellView NPT: LC\n At 2532 m experienced sudden loss of returns. Picked off bottom and reduced flow rate to 3000 lpm, 175 bar, 120 rpm, 21-23 kNm - recorded dynamic loss rate of 11.5 m3/hr. Reduced flow rate to 2800 lpm, 158 bar, 150 rpm, 26-32 kNm - dynamic loss rate of 5.3 m3/hr. \n- Recorded vol lost: 12 m3.",
+        "docType": "npt-report",
+        "docId": "6dca7e8b-b2a1-4e3b-b428-605fcec68ae5",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "5hEr7",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Broke out 9 5/8\" x 10 3/4\" casing x-over stand. I",
+        "causeCode": "SFAL",
+        "company": "AKER BP ASA",
+        "depth": 3428,
+        "description": "IDS/WellView NPT: VE\n Broke out 9 5/8\" x 10 3/4\" casing x-over stand. Inspected threads: Observed old damage on pin end threads. Changed out corresponding box and dressed pin end with file. Made up  9 5/8\" x 10 3/4\" casing x-over stand successfully. Meanwhile flow checked well - Gain reduced to 0.12 m3/hrs.",
+        "docType": "npt-report",
+        "docId": "749f5bd6-1eaf-4d14-b03e-c30010bf07f6",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "ymj3o",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure",
+            "wellcontrol",
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "POOH",
+        "causeCode": "DFAL",
+        "company": "SCHLUMBERGER",
+        "description": "IDS/WellView NPT: DHT\n POOH",
+        "docType": "npt-report",
+        "docId": "7eed8279-0377-4809-a3de-db952144e6ca",
+        "netTime": 0.6666666666666666,
+        "source": {
+            "name": "dsis",
+            "id": "rTkN9",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Observed shakers blower #1 and #2 plugged. Stoppe",
+        "causeCode": "SFAL",
+        "company": "AKER BP ASA",
+        "depth": 700,
+        "description": "IDS/WellView NPT: SFD\n Observed shakers blower #1 and #2 plugged. Stopped drilling  and recorded slow circulation rates. Reciprocating drill string in interval 700 - 695 m with 1600 lpm, 43 bar, 20 rpm, 6 kNm while unplugging cutting system. Unplugged shaker blower #2.",
+        "docType": "npt-report",
+        "docId": "85a34976-2fd2-4343-af31-0da49795cb72",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "QxMRY",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure",
+            "holecleaning"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 2600.0002,
+        "description": "IDS/WellView NPT: LC\n At 2600 m experienced sudden loss of returns. Pulled off bottom and spaced out at 2586 m. Attempted to line up trip trank on well - no success ie. unable to monitor static loss rate. Trouble shoot trip tank on auto sequence while monitoring fluid level in well by looking down rotary - Observed level dropping.",
+        "docType": "npt-report",
+        "docId": "4f895678-2233-4a90-8781-4fc807f683fa",
+        "netTime": 11,
+        "source": {
+            "name": "dsis",
+            "id": "QUGXr",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Investigated oil leak. Verified leak coming from",
+        "causeCode": "SFAL",
+        "company": "SCHLUMBERGER WIRELINE",
+        "depth": 300.00002,
+        "description": "IDS/WellView NPT: WIR\n Investigated oil leak. Verified leak coming from winch motor and / or transmission. Decision taken to POOH.",
+        "docType": "npt-report",
+        "docId": "b136ebb8-ddc9-4e51-8fbf-52bdf7b423f3",
+        "netTime": 16.5,
+        "source": {
+            "name": "dsis",
+            "id": "AY67U",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "MISC",
+        "company": "AKER BP ASA",
+        "description": "IDS/WellView NPT: OTH\n Continue to un-load equipment from boat and spot same.\n\nMeanwhile:\nCT night crew performed internal training/course on traverse crane (intermediate deck) and fork-lift.",
+        "docType": "npt-report",
+        "docId": "4cb00176-d21d-4226-bb07-478b5d059910",
+        "netTime": 3.5,
+        "source": {
+            "name": "dsis",
+            "id": "rx162",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Attempted to unplug shaker blower #1 - observed p",
+        "causeCode": "SFAL",
+        "company": "MAERSK DRILLING",
+        "depth": 700,
+        "description": "IDS/WellView NPT: SFD\n Attempted to unplug shaker blower #1 - observed pneumatisk valve not operating. Investigated and rectified problem. Observed upper screw conveyor plugged - cleared blockage.",
+        "docType": "npt-report",
+        "docId": "4aff131b-fd3e-4819-a617-cb8b7ee78260",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "9kR58",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Picked up stand from derrick and attempted to mak",
+        "causeCode": "DFAL",
+        "company": "MAERSK DRILLING",
+        "depth": 2572.0002,
+        "description": "IDS/WellView NPT: TUB\n Picked up stand from derrick and attempted to make up connection several times – No success. Inspected pin and box connection and observed box connection was squashed. POOH from 2572 m to 2559 m and laid out damaged 5 ½\" DP jnt. Picked up new 5 ½\" DP jnt and made up same. RIH with 12 ¼\" BHA from 2559 m to 2572 m.",
+        "docType": "npt-report",
+        "docId": "cc4f3861-1303-4fa3-8d3d-2b58fed78fb0",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "bOj1X",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Investigated communication issue between laptop a",
+        "causeCode": "DFAL",
+        "company": "FRANK'S INTERNATIONAL LTD",
+        "depth": 0,
+        "description": "IDS/WellView NPT: DSO\n Investigated communication issue between laptop and control modul for SCLMA. Not able to locate fault. Decision made to rig up backup equipment. \n- Turned off other WIFI operated equipment on drill floor during trouble shooting.",
+        "docType": "npt-report",
+        "docId": "d557cb00-70e6-4b1e-adda-43daff0584ea",
+        "netTime": 2.5,
+        "source": {
+            "name": "dsis",
+            "id": "7hT7r",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure",
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Redressed SLB ADRM electric bailer. Not set up co",
+        "causeCode": "DFAL",
+        "company": "SCHLUMBERGER WIRELINE",
+        "description": "IDS/WellView NPT: DHT\n Redressed SLB ADRM electric bailer. Not set up correctly from shore.\nChanged tubes and starter rotor, reterminated cable head",
+        "docType": "npt-report",
+        "docId": "09ce4317-9652-4dc1-961a-d26409f70286",
+        "netTime": 4,
+        "source": {
+            "name": "dsis",
+            "id": "lqfuI",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Observed one cuttings blower tripped and one beca",
+        "causeCode": "SFAL",
+        "company": "MAERSK DRILLING",
+        "depth": 508.00002,
+        "description": "IDS/WellView NPT: SFD\n Observed one cuttings blower tripped and one became plugged. Stopped drilling and rectified blower issues while reciprocating drill string in interval 508 - 501 m with 670 lpm, 9 bar, 15 rpm, 1 kNm.",
+        "docType": "npt-report",
+        "docId": "0301d89d-2925-4b0a-b6d3-8932f2cf3e2c",
+        "netTime": 0.5,
+        "source": {
+            "name": "dsis",
+            "id": "2VOqO",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "cause": "Stopped drilling due to issues with cutting blow",
+        "causeCode": "SFAL",
+        "company": "MAERSK DRILLING",
+        "depth": 2168.0002,
+        "description": "IDS/WellView NPT: SFD\n Stopped drilling due to issues with cutting blow #2. Observed shakers blower #2 tripped due to plugging up. Investigated fault while circulating with 1100 lpm, 33 bar, 20 rpm, 15-20 kNm while unplugging cutting system.",
+        "docType": "npt-report",
+        "docId": "07a9fb40-a482-43ba-9c24-c113039d5a81",
+        "netTime": 1.5,
+        "source": {
+            "name": "dsis",
+            "id": "t51Fp",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "DPRB",
+        "company": "AKER BP ASA",
+        "depth": 3408.0002,
+        "description": "IDS/WellView NPT: LC\n Picked off bottom and reduced flow rate from 3350 lpm, 236 bar to 2000 lpm, 102 bar, 30 rpm, 25 kNm - Observed well ballooning with decreasing trend. Established circulation and staged up to minimum flow rate 3350 lpm in 500 ltr increments while recording loss rate on each stage, rotating string with 30 - Observed consistent loss rate at 10 m3/ hr.",
+        "docType": "npt-report",
+        "docId": "788e181d-bc39-4a0f-9ace-51ef20bbe2d7",
+        "netTime": 1,
+        "source": {
+            "name": "dsis",
+            "id": "xoAMB",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "lostcirculation",
+            "wellborebreathing"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5"
+        }
+    },
+    {
+        "causeCode": "WAIT",
+        "company": "AKER BP",
+        "depth": 0,
+        "description": "WOW",
+        "docType": "npt-report",
+        "docId": "019881bc-6168-7a44-b72b-b9fc4a2b436c",
+        "netTime": 2,
+        "responsible": "NPT Due to Weather",
+        "source": {
+            "name": "dsis",
+            "id": "h8jod",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "wait"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main"
+        }
+    },
+    {
+        "causeCode": "WAIT",
+        "company": "AKER BP",
+        "depth": 0,
+        "description": "Waited on weather due to high wind",
+        "docType": "npt-report",
+        "docId": "019881bc-6168-7acc-b8df-8c286b9d313b",
+        "netTime": 19.75,
+        "responsible": "NPT Due to Weather",
+        "source": {
+            "name": "dsis",
+            "id": "B2o49",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "wait"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main"
+        }
+    },
+    {
+        "cause": "Smart Monitor Blacked out",
+        "causeCode": "SFAL",
+        "company": "ALLIANCE",
+        "depth": 3930,
+        "description": "Altus Smart Monitor blacked out while logging.",
+        "docType": "npt-report",
+        "docId": "019881bc-6168-7659-ae79-18c0692c98df",
+        "netTime": 3.25,
+        "responsible": "NPT Due to Service Company",
+        "source": {
+            "name": "dsis",
+            "id": "FaE5D",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure",
+            "dheqfailure"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main"
+        }
+    },
+    {
+        "cause": "Unit do not transmit IDEX data",
+        "causeCode": "SFAL",
+        "company": "ALLIANCE",
+        "depth": 0,
+        "description": "Altus WL unit are not sending winch data to Idex. Smart Monitor are unstable and suddenly disconnecting. ",
+        "docType": "npt-report",
+        "docId": "019881bc-6168-72c4-8592-fed27038f6b8",
+        "netTime": 0,
+        "responsible": "NPT Due to Service Company",
+        "source": {
+            "name": "dsis",
+            "id": "k6uyl",
+            "wellId": "KyirjdQ579"
+        },
+        "tags": [
+            "surfeqfailure",
+            "wait"
+        ],
+        "wellbore": {
+            "id": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+            "name": "16/1-D-5",
+            "version": "main"
+        }
+    }
+]

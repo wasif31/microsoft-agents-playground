@@ -1,0 +1,424 @@
+# Task
+
+Generate a **Hole Section Summary** for the **{{hole_section_size}}** section on wellbore **{{wellbore_name}}** for a Final Well Report (FWR).
+
+<task_context>
+**Report Type**: Final Well Report – Hole Section Summary  
+**Wellbore**: {{wellbore_name}}  
+**Hole Section**: {{hole_section_size}} ({{hole_section_name}})  
+**Section Interval**: {{hole_section_top}} m to {{hole_section_bottom}} m MD  
+**Section Period**: {{hole_section_start}} to {{hole_section_end}}  
+**Audience**: Regulatory authorities, drilling engineers, operations teams planning future wells
+</task_context>
+
+---
+
+## Objective
+
+Analyze the supplied datasets and produce a concise, factual summary for the specified hole section and wellbore.
+
+The summary must synthesize drilling performance, operational execution, issues, and learnings **relevant to this specific hole section only**.
+
+---
+
+## Input Data You Will Receive
+
+<input_data_spec>
+
+### 1. Hole Section Definition
+- Hole size (e.g., 12¼")
+- Depth interval (MD and/or TVD)
+- Start and end date/time
+
+### 2. Daily Drilling Reports (DDRs)
+- All reports within the hole section time interval
+
+### 3. Non-Productive Time (NPT) Reports
+- All NPT events occurring within the same time interval
+
+### 4. Wellbore Trajectory Data
+- Directional surveys, inclination, azimuth, dogleg severity
+
+### 5. Experience / Lessons Data (Entire Wellbore)
+- Experience records are **not tagged by hole section**
+- Relevance must be inferred using:
+  - Time overlap
+  - Depth overlap
+  - Operational description and context
+
+</input_data_spec>
+
+---
+
+## Analysis Rules (Critical)
+
+<analysis_rules>
+
+**Data Filtering**:
+- Filter all data to the hole section using:
+  1. **Time interval first**: Include records where `startTime` and `endTime` fall within {{hole_section_start}} to {{hole_section_end}}
+  2. **Depth interval second**: Include records where depth falls within {{hole_section_top}} m to {{hole_section_bottom}} m MD
+  3. **Cross-reference both**: When depth is missing, use time; when time is missing, use depth
+
+**Data Priority**:
+- When data conflicts, prioritize DDR and NPT records over experience entries
+- Include experience data **only if clearly relevant** to this hole section
+
+**Output Quality Standards**:
+- Do not speculate or invent causes
+- Suppress routine or repetitive activities unless they materially affected performance
+- If no significant issues, highlights, or opportunities exist, state this explicitly
+- Never reference technical field names (e.g., `surveyPoints`, `netTime`, `causeCode`) in output text
+
+</analysis_rules>
+
+---
+
+## Writing Rules
+
+<writing_standards>
+
+**Language and Tone**:
+- Use past tense, third-person perspective
+- Write in clear, professional drilling language
+- Use formal technical tone suitable for regulatory documentation
+- Translate technical field names into natural drilling terminology:
+  - `surveyPoints[].measuredDepth` → "directional survey data"
+  - `netTime` → "NPT duration" or "total hours"
+  - `causeCode` → "categorized by cause"
+  - `startTime/endTime` → "time period" or "operational period"
+
+**Format Standards**:
+- No database or field-name references in output
+- No tables unless explicitly requested
+- Avoid repetition across sections
+- Include quantitative data (depths, durations, percentages)
+- Suitable for direct inclusion in a Final Well Report
+
+**Abbreviation Handling**:
+Define on first use, then use abbreviation:
+- POOH = Pulled Out of Hole
+- RIH = Run In Hole
+- ROP = Rate of Penetration
+- BHA = Bottom Hole Assembly
+- TD = Total Depth
+- WOB = Weight on Bit
+- MD = Measured Depth
+- TVD = True Vertical Depth
+- DLS = Dogleg Severity
+- NPT = Non-Productive Time
+
+</writing_standards>
+
+---
+
+## Required Output Structure
+
+<output_structure>
+
+Generate **exactly** the following four sections, in this order. Do not skip any section.
+
+---
+
+### 1. Hole Section Executive Summary
+
+<section_1_requirements>
+
+**Purpose**: Provide a high-level overview including key metadata, operational accomplishments, performance metrics, and overall assessment.
+
+**Content**:
+- **Metadata block** (structured key:value format):
+  ```
+  Hole section summary – {{hole_section_size}} section 
+  Wellbore: {{wellbore_name}}
+  Hole size / section name: {{hole_section_size}} (section label: "{{hole_section_label}}")
+  Interval (MD): {{hole_section_top}}–{{hole_section_bottom}} m
+  Start / end: {{start_date}}, {{start_time}} to {{end_date}}, {{end_time}}
+  Overall drilling performance and execution quality
+  Whether section objectives were achieved
+
+  ```
+
+**Narrative paragraph** (4–6 sentences):
+
+**Tone**: Management-level, factual, neutral
+
+</section_1_requirements>
+
+---
+
+### 2. Key Operational Steps
+
+<section_2_requirements>
+
+**Purpose**: Summarize the main operational phases in logical, chronological order suitable for FWR documentation.
+
+**Data Source**: DDR records filtered by time and depth intervals, processed chronologically by `startTime`
+
+**Content**:
+Create a **concise** bullet list focusing on **major operational milestones only**:
+- Section start and drilling progression
+- Hole cleaning and conditioning
+- Directional drilling and trajectory control
+- Logging, casing, and cementing activities (if applicable)
+
+Focus on **what was done**, not daily repetition.
+
+</section_2_requirements>
+
+---
+
+### 3. Most Important Operational Problems
+
+<section_3_requirements>
+
+**Purpose**: Identify only material problems that affected time, cost, safety, wellbore quality, or operational risk.
+
+**Data Sources**: 
+- NPT records (primary source)
+- DDR comments (context and details)
+- Experience records (if relevant to hole section)
+
+**Content**:
+For each material issue, state:
+- **What happened**: Clear description of the problem
+- **Likely cause**: Only if supported by data – do not speculate
+- **Operational impact**: Effect on time (NPT duration), cost, safety, or wellbore integrity
+
+**Exclusions**: Minor or low-impact events
+
+**If no material problems**: State "No material operational problems recorded for this hole section."
+
+</section_3_requirements>
+
+---
+
+### 4. Highlights, Lowlights, and Opportunities
+
+<section_4_requirements>
+
+**Purpose**: Summarize value-adding insights where available from all data sources.
+
+**Data Sources**: Synthesize from DDR, NPT, Experience, and Trajectory data
+
+---
+
+#### Highlights
+
+**Content**: Positive outcomes (only if clearly supported by data):
+- Positive outcomes (e.g., strong ROP, low NPT, smooth casing run, good hole condition)
+- Any positive Experience records (`type: "event"` with positive outcomes)
+
+**Format**:
+```
+**Highlights**
+- **[Category]**: [Achievement description with metrics] [docType: docId]
+- **[Category]**: [Achievement description with metrics] [docType: docId]
+```
+
+**If no highlights**: State "No specific highlights recorded for this hole section."
+
+---
+
+#### Lowlights
+
+**Content**: Negative outcomes (from NPT, DDR, and Experience records):
+- Negative outcomes (e.g., NPT events, equipment failures, wellbore issues)
+- Experience records with `type: "event"` and negative outcomes
+
+**Format**:
+```
+**Lowlights**
+- **[Event type]**: [Description] - [Duration] hours at [depth] m MD. Cause: [cause]. [npt: docId] [ddr: docId]
+- **[Issue type]**: [Description]. [ddr: docId]
+```
+
+**If no lowlights**: State "No significant lowlights recorded for this hole section."
+
+---
+
+#### Opportunities
+
+**Content**: Improvement opportunities or learnings for future wells (include **only if clearly supported** by experience or operational data):
+- Experience records where `type: "lessons learned"`
+- Best practices identified
+
+**Format**:
+```
+**Opportunities**
+- **[Title]** ([Scope]): [Summary of lesson and recommendation]. [experience: docId]
+```
+
+**If no opportunities**: State "No improvement opportunities documented for this hole section."
+
+</section_4_requirements>
+
+</output_structure>
+
+---
+
+# Data Schema Reference
+
+<data_schema>
+
+The following describes the JSON properties you will receive. Use this reference to correctly interpret the data.
+
+## Wellbore Properties
+
+| Property | Description |
+|----------|-------------|
+| `name` | Official wellbore name following regulatory naming conventions. Examples: '25/2-D-14 Y1 Rev M0', '31/5-J-12 BY2H'. |
+| `category` | Wellbore purpose classification indicating drilling objective or production type. Values: 'DEVELOPMENT', 'EXPLORATION', 'oilproducer', 'gasproducer', 'waterinjector', 'gasinjector', 'wasteinjector', 'appraisal', 'geopilot', 'OTHER'. |
+| `status` | Current operational status of the wellbore. Values: 'Planned', 'DRILLING', 'PRODUCING', 'INJECTING', 'CLOSED', 'SUSPENDED', 'PLUGGED', 'P&A', 'JUNKED', 'PREDRILLED', 'BLOWOUT'. |
+| `length` | Total measured depth (MD) of the wellbore in meters - the actual drilled length along the wellbore path from RKB to total depth (TD). Typical values: 2000m to 8000m. |
+| `verticalDepth` | True Vertical Depth (TVD) in meters - the vertical distance from the RKB datum to the bottom of the wellbore. Typical values: 1500m to 5000m. |
+| `kickOffDepth` | Kickoff depth (KOP) in meters - the measured depth where directional drilling begins and the wellbore starts deviating from vertical. Typical values: 200m to 3000m. |
+| `maxInclination` | Maximum wellbore inclination angle in degrees from vertical. 0° = vertical, 90° = horizontal. Values typically range from 0° to 97°. |
+| `msl` | Water depth (offshore) or ground elevation (onshore) in meters - the vertical distance from Mean Sea Level to the seabed/mudline. Typical values: 50-400m for shelf, 800-3000m for deepwater. |
+| `rkbMsl` | Elevation of the Rotary Kelly Bushing (RKB) above Mean Sea Level (MSL) in meters. RKB is the depth reference datum on drilling rigs. Typical values: 20-80m. |
+| `phase` | Wellbore lifecycle phase. Values: 'ACTUAL' (physically drilled), 'PLAN' (approved design), 'PROTOTYPE' (preliminary concept), 'LOCKED', 'UNLOCKED'. |
+| `source` | Source system that provided this wellbore data. Values: 'dsis', 'npd', 'InformatiQ', 'osdu', 'witsml', 'oliasoft', 'wintershall', 'collabor8'. |
+
+## Hole Section Properties
+
+| Property | Description |
+|----------|-------------|
+| `name` | Drilling phase name. Values: Conductor, Surface, Intermediate, Production, Reservoir. |
+| `section` | Hole section label identifying drilling phase and casing program. Examples: '12 1/4" Section', 'Surface Casing', 'Production Liner'. |
+| `size` | Hole section diameter (borehole size) in inches. Standard offshore sizes: 36" (conductor), 26" (surface), 17.5" (intermediate), 12.25"/12.5" (production), 8.5" (reservoir/liner). |
+| `top` | Top measured depth (MD) of the hole section interval in meters from the rotary kelly bushing (RKB). |
+| `bottom` | Bottom measured depth (MD) of the hole section interval in meters from the rotary kelly bushing (RKB). Represents the deepest point reached for this hole diameter. |
+| `start` | Drilling start date/time in ISO 8601 UTC format. When drilling began for this hole section. |
+| `end` | Drilling end date/time in ISO 8601 UTC format. When drilling completed or target depth reached. |
+| `casings` | Array of casing strings installed in this hole section. Contains casing references with id and shoe outer diameter. |
+| `source` | Originating data system. Values: 'InformatiQ', 'dsis', 'wellview', 'wellcom', 'dwp'. |
+
+## NPT (Non-Productive Time) Properties
+
+| Property | Description |
+|----------|-------------|
+| `cause` | Brief description of the root cause or reason for the NPT event. Examples: 'Hydraulic leak on elevator', 'BOP control system failure', 'MWD Tool failure'. |
+| `causeCode` | Standardized NPT cause code classifying the type of delay. Values: 'HMAN', 'RREP', 'WAIT', 'SFAL', 'DFAL', 'DPRB', 'MISC', 'STUC', 'FLUD', 'CEMT', 'UFAL'. |
+| `description` | Detailed narrative description of the NPT event including what happened, circumstances, troubleshooting steps taken, and resolution. |
+| `netTime` | Net productive time lost due to the NPT event, measured in hours (decimal). Critical for performance metrics and cost calculation. |
+| `depth` | Measured Depth (MD) in meters where the NPT event occurred, measured along the wellbore path from the Rotary Kelly Bushing (RKB). |
+| `startTime` | Date and time (ISO 8601 format) when the NPT event started. |
+| `endTime` | Date and time (ISO 8601 format) when the NPT event ended or was resolved. |
+| `responsible` | Party responsible for or accountable for the NPT event. Values: 'NPT Due to Service Company', 'NPT Due to Rig Contractor', 'NPT Due to Down Hole Problems', 'NPT Due to Operator Problems', 'NPT Due to Weather'. |
+| `company` | Company or service contractor name responsible for the NPT event or the equipment/service that failed. |
+| `tags` | Drilling hazard tags for categorizing NPT events. Values: 'surfeqfailure', 'wait', 'dheqfailure', 'dircontrol', 'stuckpipe', 'lostcirculation', 'tighthole', 'harddrilling', 'packoff', 'wellborestability', 'wellcontrol', 'lowrop', 'shallowwater', 'shallowgas', 'wellborebreathing', 'boulders'. |
+
+## DDR (Daily Drilling Report) Properties
+
+| Property | Description |
+|----------|-------------|
+| `comment` | Free-text crew narrative describing the drilling activity in technical detail. Contains drilling parameters (WOB, RPM, torque, flow rate, SPP, ECD), procedural notes, and observations. |
+| `depth` | Measured Depth (MD) in meters—the length along the wellbore path from the reference point where this operation occurred. May be negative for operations above the reference point. |
+| `startTime` | UTC timestamp (ISO 8601) when this drilling activity started. |
+| `endTime` | UTC timestamp (ISO 8601) when this drilling activity ended. |
+| `operation.code` | Primary operation category code classifying the rig activity type. Values: 'drilling', 'cement', 'Coring', 'Circulation', 'BOP/Riser', 'COMPLETION_FLOW', 'COMPLETION_PERFORATE', 'RIH', 'POOH', 'BPT', 'DCM'. |
+| `operation.subCode` | Alphanumeric sub-code providing additional activity detail within the main operation category. Examples: '1a', '2B', '10', '15A'. |
+| `npt.code` | NPT cause code identifying the root cause of non-productive time. Codes: WAIT, WOW, FAIL, FLUID, STUC, CEMT, DFAL, SFAL, UFAL, DPRB, RREP, HMAN, WSEQ, MISC, OK, NPT, PT. |
+| `npt.level` | NPT severity level (0-3) indicating delay impact. 0=no NPT, 1=minor delay, 2=moderate delay, 3=major delay. |
+| `phase` | Well construction phase and sub-activity code indicating the current drilling stage. Phases: 1RMP=rig move, 2DL=drilling, 3ICT=intervention/completion/testing. |
+
+## Experience Properties
+
+| Property | Description |
+|----------|-------------|
+| `type` | Type of experience entry. Values: 'event', 'lessons learned', 'observation'. |
+| `title` | Brief title summarizing the drilling experience for quick identification. |
+| `description` | Detailed narrative of the experience including what happened, conditions, drilling parameters, and outcomes. |
+| `cause` | Root cause analysis of the drilling experience. Identifies technical, operational, or geological factors that contributed to the event. |
+| `scope` | Operational domain of the experience. Values: 'Subsurface', 'Equipment', 'HSE', 'Project'. |
+| `startDate` | Date and time (ISO 8601) when the drilling experience occurred or was first observed. |
+| `endDate` | Date and time (ISO 8601) when the drilling experience ended or was resolved. |
+| `tags` | Drilling hazard tags for categorization. Values: lostcirculation, harddrilling, wellborestability, stuckpipe, wellcontrol, holecleaning, packoff, tighthole, lowrop, highrop, dheqfailure, surfeqfailure, wait, wellborebreathing, dircontrol, boulders, shallowgas, shallowwater. |
+| `class.severityLevel` | Risk severity level indicator (0-4 scale). Used for risk matrix assessment. |
+| `class.probabilityLevel` | Risk probability level indicator (0-1). Used for risk matrix assessment. |
+| `class.extendedCategory` | Specific drilling hazard type. Values: lostcirculation, stuckpipe, wellborestability, harddrilling, holecleaning, wellcontrol, shallowgas, shallowwater, boulders, directionalcontrol, packoff, tighthole, wellborebreathing, highrop, lowrop, downholeequipmentfailure, surfaceequipmentfailure. |
+| `context.wellbore.md.from` | Starting measured depth (MD RKB) in meters. |
+| `context.wellbore.md.to` | Ending measured depth (MD RKB) in meters. |
+
+## Trajectory Properties
+
+| Property | Description |
+|----------|-------------|
+| `msl` | Water depth or air gap - the vertical distance in meters from Mean Sea Level (MSL) to the seabed (for offshore) or ground level (for onshore). Typical values: 50-400m for continental shelf, 800-3000m for deepwater. |
+| `rkbMsl` | Elevation of the Rotary Kelly Bushing (RKB) above Mean Sea Level (MSL), measured in meters. RKB is the standard depth reference datum on drilling rigs. Typical values: 20-80m for offshore platforms. |
+| `surveyPoints` | Ordered collection of directional survey stations along the wellbore path. Each survey point contains measured depth, inclination, azimuth, and dogleg severity. |
+| `surveyPoints[].measuredDepth` | Measured Depth (MD) in meters - the actual drilled length along the wellbore path from the Rotary Kelly Bushing (RKB) to this survey station. |
+| `surveyPoints[].inclination` | Inclination angle in degrees - the deviation of the wellbore from vertical at this survey station (0-180°). 0° = vertical, 90° = horizontal. |
+| `surveyPoints[].azimuth` | Azimuth angle in degrees - the compass heading/direction the wellbore is pointing at this survey station (0-360°). 0°/360° = North, 90° = East, 180° = South, 270° = West. |
+| `surveyPoints[].dls` | Dogleg Severity (DLS) in degrees per 30 meters (°/30m) - measures the rate of change in wellbore direction. 0-3°/30m normal, 3-8°/30m moderate, >8°/30m may cause problems. |
+
+</data_schema>
+
+---
+
+# Wellbore Data
+
+<wellbore_data>
+{{WELLBORE_JSON}}
+</wellbore_data>
+
+---
+
+# Hole Section Data
+
+<hole_section_data>
+{{HOLE_SECTION_JSON}}
+</hole_section_data>
+
+---
+
+# NPT Reports
+
+<npt_data>
+{{NPT_JSON}}
+</npt_data>
+
+---
+
+# Daily Drilling Reports
+
+<ddr_data>
+{{DDR_JSON}}
+</ddr_data>
+
+---
+
+# Experiences
+
+<experience_data>
+{{EXPERIENCES_JSON}}
+</experience_data>
+
+---
+
+# Trajectory Data
+
+<trajectory_data>
+{{TRAJECTORY_JSON}}
+</trajectory_data>
+
+---
+
+# Generate Summary
+
+<generation_instructions>
+
+Analyze all provided data and generate the Hole Section Summary following **exactly** the four-section output structure specified in `<output_spec>`:
+
+1. **Produce only the four sections above, in order.**
+2. **Do not explain your reasoning or reference the input data directly.**
+
+
+**Critical Requirements**:
+- Filter ALL data to the hole section interval (depth and/or time)
+- Use date/time to identify relevant NPT events
+- Cite sources using format `[documentType: documentId]`
+- End with source attribution as specified in system prompt
+- Give output in Markdown format using the structure in `<output_spec>...</output_structure>`
+
+</generation_instructions>

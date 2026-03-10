@@ -1,0 +1,78 @@
+[
+    {
+        "category": "waterinjector",
+        "docType": "wellbore",
+        "docId": "7015233c-87f7-42df-bc3f-5e6cc5712db4",
+        "kickOffDepth": 0,
+        "kickOffDepthUnit": "Meter",
+        "length": 4077,
+        "lengthUnit": "Meter",
+        "maxInclination": 62.749996,
+        "maxInclinationUnit": "Degree",
+        "msl": 112.700005,
+        "mslUnit": "Meter",
+        "name": "16/1-D-5",
+        "phase": "ACTUAL",
+        "planningStatus": "asbuilt",
+        "rkbMsl": 68.32,
+        "rkbMslUnit": "Meter",
+        "source": {
+            "name": "dsis",
+            "id": "mTRa0YK34t",
+            "wellId": "KyirjdQ579",
+            "defSurveyHeaderId": "Aw68V"
+        },
+        "status": "INJECTING",
+        "verticalDepth": 2604.9037000000003,
+        "verticalDepthUnit": "Meter",
+        "well": {
+            "wellHeadPositions": {
+                "utm": {
+                    "crs": "EPSG:23031",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            453820.26,
+                            6531825.49
+                        ]
+                    }
+                },
+                "wgs84": {
+                    "crs": "EPSG:4326",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.1963999653431285,
+                            58.92169323193413
+                        ]
+                    }
+                },
+                "ed50": {
+                    "crs": "EPSG:4230",
+                    "source": "npd",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.198042,
+                            58.922283
+                        ]
+                    }
+                }
+            },
+            "wellHeadPosition": {
+                "type": "Point",
+                "coordinates": [
+                    2.1963999653431285,
+                    58.92169323193413
+                ]
+            },
+            "id": "60838a81-661b-4d59-86ad-1f1fad6a4359",
+            "name": "16/1-D-5",
+            "version": "main",
+            "docType": "well"
+        },
+        "wellboreProjectName": "16/1-D-5"
+    }
+]
